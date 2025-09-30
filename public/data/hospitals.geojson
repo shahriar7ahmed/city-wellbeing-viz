@@ -1,0 +1,89 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [90.4125, 23.8103]
+      },
+      "properties": {
+        "name": "Dhaka Medical College Hospital",
+        "type": "hospital",
+        "beds": 2600,
+        "services": ["Emergency", "Surgery", "Cardiology", "Neurology"],
+        "population_served": 45000
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [90.3754, 23.7465]
+      },
+      "properties": {
+        "name": "Bangabandhu Sheikh Mujib Medical University",
+        "type": "hospital",
+        "beds": 1800,
+        "services": ["Emergency", "Surgery", "Oncology", "Research"],
+        "population_served": 38000
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [90.4203, 23.7756]
+      },
+      "properties": {
+        "name": "Sir Salimullah Medical College Hospital",
+        "type": "hospital",
+        "beds": 1500,
+        "services": ["Emergency", "Surgery", "Pediatrics"],
+        "population_served": 32000
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [90.3926, 23.7369]
+      },
+      "properties": {
+        "name": "United Hospital",
+        "type": "private_hospital",
+        "beds": 600,
+        "services": ["Emergency", "Surgery", "Cardiology", "ICU"],
+        "population_served": 25000
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [90.4254, 23.8234]
+      },
+      "properties": {
+        "name": "Ibn Sina Hospital",
+        "type": "private_hospital",
+        "beds": 450,
+        "services": ["Emergency", "Surgery", "Maternity"],
+        "population_served": 22000
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [90.3845, 23.7623]
+      },
+      "properties": {
+        "name": "Apollo Hospitals Dhaka",
+        "type": "private_hospital",
+        "beds": 650,
+        "services": ["Emergency", "Surgery", "Cardiology", "Oncology"],
+        "population_served": 28000
+      }
+    }
+  ]
+}

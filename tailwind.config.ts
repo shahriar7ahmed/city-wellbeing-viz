@@ -47,6 +47,16 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Dashboard specific colors
+        dashboard: {
+          health: "hsl(var(--health-access))",
+          waste: "hsl(var(--waste-access))",
+          heat: "hsl(var(--heat-risk))",
+          flood: "hsl(var(--flood-risk))",
+          green: "hsl(var(--low-green))",
+          underserved: "hsl(var(--underserved))",
+          suggested: "hsl(var(--suggested))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -62,6 +72,20 @@ export default {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      backgroundImage: {
+        'gradient-health': 'var(--gradient-health)',
+        'gradient-risk': 'var(--gradient-risk)',
+        'gradient-data': 'var(--gradient-data)',
+      },
+      boxShadow: {
+        'map': 'var(--shadow-map)',
+        'card': 'var(--shadow-card)',
+        'glow': 'var(--shadow-glow)',
+      },
+      transitionTimingFunction: {
+        'smooth': 'var(--transition-smooth)',
+        'bounce': 'var(--transition-bounce)',
       },
       keyframes: {
         "accordion-down": {

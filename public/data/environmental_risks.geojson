@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [90.385, 23.755],
+          [90.425, 23.755],
+          [90.425, 23.795],
+          [90.385, 23.795],
+          [90.385, 23.755]
+        ]]
+      },
+      "properties": {
+        "risk_type": "heat_island",
+        "severity": "high",
+        "temperature_anomaly": 4.2,
+        "area_name": "Commercial District",
+        "population_affected": 120000
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [90.365, 23.715],
+          [90.395, 23.715],
+          [90.395, 23.745],
+          [90.365, 23.745],
+          [90.365, 23.715]
+        ]]
+      },
+      "properties": {
+        "risk_type": "flood_prone",
+        "severity": "high",
+        "flood_depth": 2.5,
+        "area_name": "Buriganga Riverside",
+        "population_affected": 95000
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [90.405, 23.805],
+          [90.435, 23.805],
+          [90.435, 23.835],
+          [90.405, 23.835],
+          [90.405, 23.805]
+        ]]
+      },
+      "properties": {
+        "risk_type": "low_green_cover",
+        "severity": "medium",
+        "green_percentage": 8,
+        "area_name": "Industrial Zone",
+        "population_affected": 75000
+      }
+    }
+  ]
+}

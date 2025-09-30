@@ -1,0 +1,41 @@
+{
+  "hospitals": [
+    {
+      "coordinates": [90.358, 23.732],
+      "rationale": "Located in Old Dhaka East underserved area, would serve 45,000 additional people within 1km radius",
+      "priority": "high",
+      "estimated_cost": "$2.5M",
+      "population_coverage": 45000
+    },
+    {
+      "coordinates": [90.367, 23.722],
+      "rationale": "Strategic location in Lalbagh area to serve flood-prone community, 35,000 people coverage",
+      "priority": "high",
+      "estimated_cost": "$2.2M",
+      "population_coverage": 35000
+    }
+  ],
+  "waste_facilities": [
+    {
+      "coordinates": [90.402, 23.841],
+      "rationale": "Tejgaon North collection point would reduce waste transport distance for 25,000 residents",
+      "priority": "medium",
+      "estimated_cost": "$150K",
+      "population_coverage": 25000
+    },
+    {
+      "coordinates": [90.362, 23.728],
+      "rationale": "Old Dhaka waste station to address dual underservice in high-density area",
+      "priority": "high",
+      "estimated_cost": "$180K",
+      "population_coverage": 30000
+    },
+    {
+      "coordinates": [90.418, 23.812],
+      "rationale": "Commercial district recycling center to handle high-volume waste generation",
+      "priority": "medium",
+      "estimated_cost": "$220K",
+      "population_coverage": 18000
+    }
+  ]
+}

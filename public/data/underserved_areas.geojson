@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [90.345, 23.725],
+          [90.365, 23.725],
+          [90.365, 23.745],
+          [90.345, 23.745],
+          [90.345, 23.725]
+        ]]
+      },
+      "properties": {
+        "area_name": "Old Dhaka East",
+        "population": 85000,
+        "underserved_type": "hospital",
+        "distance_to_nearest": 1.8,
+        "risk_factors": ["High Density", "Poor Infrastructure"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [90.395, 23.835],
+          [90.415, 23.835],
+          [90.415, 23.855],
+          [90.395, 23.855],
+          [90.395, 23.835]
+        ]]
+      },
+      "properties": {
+        "area_name": "Tejgaon North",
+        "population": 52000,
+        "underserved_type": "waste",
+        "distance_to_nearest": 0.8,
+        "risk_factors": ["Industrial Area", "Limited Access"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [90.355, 23.715],
+          [90.375, 23.715],
+          [90.375, 23.735],
+          [90.355, 23.735],
+          [90.355, 23.715]
+        ]]
+      },
+      "properties": {
+        "area_name": "Lalbagh",
+        "population": 67000,
+        "underserved_type": "both",
+        "distance_to_nearest": 1.5,
+        "risk_factors": ["Flood Prone", "High Density", "Low Income"]
+      }
+    }
+  ]
+}

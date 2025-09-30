@@ -1,0 +1,75 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [90.4198, 23.8145]
+      },
+      "properties": {
+        "name": "Dhaka North Collection Point",
+        "type": "collection_point",
+        "capacity": "500 tons/day",
+        "services": ["Solid Waste", "Recyclables"],
+        "population_served": 15000
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [90.3912, 23.7534]
+      },
+      "properties": {
+        "name": "Wari Waste Station",
+        "type": "transfer_station",
+        "capacity": "300 tons/day",
+        "services": ["Solid Waste", "Organic"],
+        "population_served": 12000
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [90.4067, 23.7812]
+      },
+      "properties": {
+        "name": "Ramna Collection Hub",
+        "type": "collection_point",
+        "capacity": "400 tons/day",
+        "services": ["Solid Waste", "Recyclables", "E-waste"],
+        "population_served": 18000
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [90.3754, 23.7298]
+      },
+      "properties": {
+        "name": "Old Dhaka Waste Center",
+        "type": "collection_point",
+        "capacity": "250 tons/day",
+        "services": ["Solid Waste"],
+        "population_served": 10000
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [90.4312, 23.8267]
+      },
+      "properties": {
+        "name": "Tejgaon Processing Plant",
+        "type": "processing_facility",
+        "capacity": "800 tons/day",
+        "services": ["Processing", "Recycling", "Composting"],
+        "population_served": 35000
+      }
+    }
+  ]
+}
